@@ -7,33 +7,33 @@ public class Test {
 		private double rate;
 		private Address[] addresses;
 		
-		public Employee(String name, int hours, double rate, Address[] addresses) {
+		public Employee(String name, int hours, double rate, Address[] addresses) { // Employee constructor with parameters
 			this.name = name;
 			this.hours = hours;
 			this.rate = rate;
 			this.addresses = addresses;
 		}
 		
-		public Employee() {
+		public Employee() { // Employee constructor without parameters
 			this.name = null;
 			this.hours = null;
 			this.rate = null;
 			this.addresses = new Address[6];
 		}
 		
-		public setName(String name) {
+		public setName(String name) { // sets Employee name
 			this.name = name;
 		}
 		
-		public setHours(int hours) {
+		public setHours(int hours) { // sets Employee hours
 			this.hours = hours;
 		}
 		
-		public setRate(double rate) {
-			double rate;
+		public setRate(double rate) { // sets Employee rate
+			this.rate = rate;
 		}
 		
-		public setAddressList(Address[] addresses) {
+		public setAddressList(Address[] addresses) { // takes an array of addresses as input and sets Employee addresses
 			this.addresses = addresses;
 		}
 		
@@ -96,6 +96,7 @@ public class Test {
 		}
 		
 	}
+	
 	
 	public static void main(String[] args) {
 		
